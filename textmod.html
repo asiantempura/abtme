@@ -1,31 +1,20 @@
 <head>
-  <!--
   <script>
-    function validateForm() {
-      var x = document.forms["myForm"]["fname"].value;
-      if (x == "") {
-        alert("Name must be filled out");
-        return false;
-      }
-      else {
-        alert(x);
-        return true;
-      }
+    function thing() {
+    	return document.getElementById('username').value;
     }
   </script>
-  -->
 </head>
 
 <body>
   <a href="https://asiantempura.github.io/abtme/">sorry yet</a>
   
+  <label for="username">input text here:</label><br>
   
-  <form name="myForm" onsubmit="document.getElementById('shmoney').innerHTML=Date()" method="post">
-    Name: <input type="text" name="fname">
-    <input type="submit" value="Submit">
-  </form>
+  <input type="text" id="username" name="username"><br>
   
-  <div id="shmoney">
+  <input type="button" value="click pls" onclick="document.getElementById('p').innerHTML = thing()">
+  <div id="p">
     
   </div>
 </body>
