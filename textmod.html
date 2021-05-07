@@ -1,4 +1,5 @@
 <head>
+  <!--
   <script>
     function validateForm() {
       var x = document.forms["myForm"]["fname"].value;
@@ -12,15 +13,19 @@
       }
     }
   </script>
-  
+  -->
 </head>
 
 <body>
-  <a href="https://asiantempura.github.io/abtme/">sorry, finished yet</a>
+  <a href="https://asiantempura.github.io/abtme/">sorry yet</a>
   
   
-  <form name="myForm" onsubmit="return validateForm()" method="post">
+  <form name="myForm" onsubmit="document.getElementById('shmoney').innerHTML=Date()" method="post">
     Name: <input type="text" name="fname">
     <input type="submit" value="Submit">
   </form>
+  
+  <div id="shmoney">
+    
+  </div>
 </body>
