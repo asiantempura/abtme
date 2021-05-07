@@ -6,6 +6,16 @@
     function lowercase() {
     	return document.getElementById('lower').value.toLowerCase();
     }
+    function randomcase() {
+    	var x = document.getElementById('random').value;
+        var newx = "";
+        for (var i = 0; i < x.length; i++) {
+        	var r = Math.floor(Math.random() * 2);
+            if(r==0)newx += x.charAt(i).toUpperCase();
+            else newx += x.charAt(i).toLowerCase();
+            }
+        return newx;
+    }
   </script>
 </head>
 
@@ -28,6 +38,17 @@
   
   <input type="button" value="Convert" onclick="document.getElementById('lowercase').innerHTML = lowercase()">
   <div id="lowercase">
+    
+  </div>
+  
+  
+  
+  <label>Convert to randomcase:</label><br>
+  
+  <input type="text" id="random"><br>
+  
+  <input type="button" value="Convert" onclick="document.getElementById('randomcase').innerHTML = randomcase()">
+  <div id="randomcase">
     
   </div>
 </body>
