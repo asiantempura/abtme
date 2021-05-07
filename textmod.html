@@ -1,20 +1,33 @@
 <head>
   <script>
-    function thing() {
-    	return document.getElementById('username').value;
+    function uppercase() {
+    	return document.getElementById('upper').value.toUpperCase();
+    }
+    function lowercase() {
+    	return document.getElementById('lower').value.toLowerCase();
     }
   </script>
 </head>
 
 <body>
-  <a href="https://asiantempura.github.io/abtme/">sorry yet</a>
+  <a href="https://asiantempura.github.io/abtme/">sorry yet</a><br>
   
-  <label for="username">input text here:</label><br>
+  <label>input text here:</label><br>
   
-  <input type="text" id="username" name="username"><br>
+  <input type="text" id="upper"><br>
   
-  <input type="button" value="click pls" onclick="document.getElementById('p').innerHTML = thing()">
-  <div id="p">
+  <input type="button" value="click pls" onclick="document.getElementById('uppercase').innerHTML = uppercase()">
+  <div id="uppercase">
+    
+  </div>
+  
+  
+  <label>input text here:</label><br>
+  
+  <input type="text" id="lower"><br>
+  
+  <input type="button" value="click pls" onclick="document.getElementById('lowercase').innerHTML = lowercase()">
+  <div id="lowercase">
     
   </div>
 </body>
