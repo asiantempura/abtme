@@ -51,3 +51,8 @@ body {
 .darkgray {
 	color: #838383;
 }
+
+.background {
+	background-image: url('assets/campus-night.jpg');
+	height: 1000px;
+}
