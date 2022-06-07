@@ -33,16 +33,21 @@ body {
 
 .home {
   background-color: #DCDCDC; 
-  margin-top: 30px;
 }
 
 .news {
   background-color: #838383; 
-  margin-top: 30px;
 }
 
 .contact {
   background-color: #DCDCDC; 
-  margin-top: 30px;
+  margin-top: 0px;
 }  
 
+.gray {
+	color: #DCDCDC;
+}
+
+.darkgray {
+	color: #838383;
+}
