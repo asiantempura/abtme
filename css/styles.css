@@ -25,13 +25,17 @@ body {
   color: black;
 }
 
+div{
+	color: #FFFFFF;
+}
+
 .home {
   background-color: #DCDCDC; 
   height: 700px;
 }
 
 .news {
-  background-color: #838383; 
+  background-color: #666666; 
 }
 
 .contact {
@@ -44,6 +48,9 @@ body {
 }
 
 .darkgray {
-	color: #838383;
+	color: #666666;
 }
 
+.title {
+	text-align: center;	
+}
