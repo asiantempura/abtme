@@ -25,12 +25,6 @@ body {
   color: black;
 }
 
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
-}
-
 .home {
   background-color: #DCDCDC; 
   height: 700px;
