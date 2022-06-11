@@ -25,13 +25,14 @@ body {
   color: black;
 }
 
-div{
-	color: #FFFFFF;
-}
-
 .home {
-  background-color: #DCDCDC; 
   height: 550px;
+  color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40;
+    font-family: Arial, sans-serif;
 }
 
 .news {
@@ -49,12 +50,4 @@ div{
 
 .darkgray {
 	color: #666666;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40;
-    font-family: Arial, sans-serif;
 }
