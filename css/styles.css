@@ -31,7 +31,7 @@ div{
 
 .home {
   background-color: #DCDCDC; 
-  height: 700px;
+  height: 550px;
 }
 
 .news {
@@ -52,5 +52,7 @@ div{
 }
 
 .title {
-	text-align: center;	
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
