@@ -25,6 +25,11 @@ body {
   color: black;
 }
 
+h2{
+	font-size: 1em;
+	font-weight: normal;
+}
+
 .home {
 	font-weight: 700;
   height: 550px;
@@ -40,17 +45,10 @@ body {
   background-color: #00368E; 
 	padding: 50px;
 	color: #FFFFFF;
+    font-family: Arial, sans-serif;
 }
 
 .contact {
   background-color: #DCDCDC; 
   margin-top: 0px;
-}  
-
-.gray {
-	color: #DCDCDC;
-}
-
-.darkgray {
-	color: #666666;
-}
+} 
