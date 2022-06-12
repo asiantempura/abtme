@@ -37,8 +37,9 @@ body {
 }
 
 .news {
-  background-color: #666666; 
+  background-color: #00368E; 
 	padding: 50px;
+	color: #FFFFFF;
 }
 
 .contact {
