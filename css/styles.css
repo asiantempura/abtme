@@ -26,6 +26,7 @@ body {
 }
 
 .home {
+	font-weight: 700;
   height: 550px;
   color: #FFFFFF;
     display: flex;
