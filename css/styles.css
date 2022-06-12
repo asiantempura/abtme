@@ -43,6 +43,9 @@ h2{
 }
 
 .news {
+display: flex;
+    align-items: center;
+    justify-content: center;
 	padding: 50px;
 	color: #FFFFFF;
     font-family: Arial, sans-serif;
